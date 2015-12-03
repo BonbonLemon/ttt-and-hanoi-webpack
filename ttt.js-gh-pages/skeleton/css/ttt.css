@@ -1,0 +1,48 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: inherit;
+}
+
+.grid {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.row {
+  width: 330px;
+  height:110px;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  float: left;
+  background: #ccc;
+  border: 5px #000 solid;
+}
+
+.game-mark {
+  font-size: 60px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.square:hover {
+  background: #ff0;
+}
+
+ul {
+  list-style-type: none;
+}
